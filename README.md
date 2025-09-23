@@ -1,4 +1,4 @@
-# nbaathleticscore
+
 NBA Athletic Score Project Ismail Ismail
 # 🏀 Do High-End Athletic Traits Translate into NBA Career Success?
 
@@ -49,3 +49,46 @@ SELECT
 FROM player_combine_draft
 LEFT JOIN common_player_info
     ON player_combine_draft.player_id = common_player_info.person_id;
+---
+
+## 📈 Visuals (Tableau)  
+
+1. **Scatter Plot: Athletic Score vs Career Length**  
+   - Shows almost flat trendline → very weak relationship.  
+   - ![Scatter Plot](ScatterPlot.png)  
+
+2. **Bar Chart: Career Length by Draft Round**  
+   - Clearer differences (1st-rounders last longer regardless of athleticism).  
+   - ![Bar Chart](BarChart.png)  
+
+---
+
+## 📊 Results  
+
+- **Scatter plot trendline** between athletic score and career length was nearly flat (R² ≈ close to 0).  
+- **Draft round** showed stronger predictive power for career length than athletic traits.  
+- **Position analysis** (Guards, Wings, Bigs) showed only slight differences — not driven by athletic score.  
+- **Outliers** like Thon Maker and Josh Jackson highlight the issue: great athletes who didn’t last long in the league.  
+
+---
+
+## 💬 Discussion  
+
+The data suggests that **high-end athletic traits alone are not reliable predictors of NBA career longevity**. While athleticism clearly provides an advantage in getting drafted, other factors seem to matter more for sustaining a career:  
+
+- **Injuries**: Especially for players who rely heavily on athleticism, injuries can shorten careers quickly.  
+- **Role fit**: Even highly athletic players can fail if their skillset doesn’t match team needs or if their position becomes less valued.  
+- **Skill development**: Players who don’t expand their game beyond raw athleticism often see their careers cut short.  
+
+📌 **Takeaway:** Teams should be cautious about overvaluing combine numbers without considering role adaptability, basketball IQ, and injury risk.  
+
+---
+
+## 🔮 Future Work  
+
+This analysis only measured **career length in years** as a proxy for success. Future extensions could:  
+- Include **career quality** (All-Star appearances, advanced stats like WS/48 or BPM).  
+- Control for **injury history** and role changes.  
+- Compare across **eras** (e.g., 2000s vs modern pace-and-space NBA).  
+
+---
