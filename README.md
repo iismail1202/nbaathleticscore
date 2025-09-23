@@ -49,6 +49,7 @@ SELECT
 FROM player_combine_draft
 LEFT JOIN common_player_info
     ON player_combine_draft.player_id = common_player_info.person_id;
+```
 ---
 
 ## 📈 Visuals (Tableau)  
@@ -84,7 +85,7 @@ The data suggests that **high-end athletic traits alone are not reliable predict
 
 ---
 
-## 🔮 Future Work  
+## 🔮 Future Work
 
 This analysis only measured **career length in years** as a proxy for success. Future extensions could:  
 - Include **career quality** (All-Star appearances, advanced stats like WS/48 or BPM).  
