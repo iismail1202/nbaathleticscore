@@ -58,8 +58,10 @@ LEFT JOIN common_player_info
    - Shows almost flat trendline → very weak relationship.  
    - ![Scatter Plot](ScatterPlot.png)  
 
-2. **Bar Chart: Career Length by Draft Round**  
-   - Clearer differences (1st-rounders last longer regardless of athleticism).  
+2. **Bar Chart: Average Athletic Score & Career Length by Position**  
+   - Top panel: Average athletic score for each position.  
+   - Bottom panel: Average career length (years) for each position.  
+   - Takeaway: Some positions (like PF-SF) appear to have both higher athletic scores and longer careers, but overall the relationship is inconsistent.    
    - ![Bar Chart](BarChart.png)  
 
 ---
